@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config_service" />
+        <module name="eureka_client" />
+        <module name="eureka_client2" />
+        <module name="eureka_server" />
+        <module name="feign_server" />
+        <module name="gateway_services" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alexryc" target="1.8" />
+      <module name="config_service" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka_client" target="1.8" />
+      <module name="eureka_client2" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="feign_server" target="1.8" />
+      <module name="gateway_server" target="1.5" />
+      <module name="gateway_services" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+server:
+  port: 1102
+
+spring:
+  application:
+    name: service-hi
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1101/eureka/
